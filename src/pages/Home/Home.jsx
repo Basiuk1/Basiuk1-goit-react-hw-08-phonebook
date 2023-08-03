@@ -5,9 +5,10 @@ export default function Home() {
   return (
     <Container>
       <Title>
-        Hello, this is your PhoneBook. It is designed to help your brain not
-        remember numbers, but write them down. Create your own unique account
-        and get the opportunity to record your contacts.
+        Contacts manager welcome page{' '}
+        <span role="img" aria-label="Greeting icon">
+          💁‍♀️
+        </span>
       </Title>
     </Container>
   );
